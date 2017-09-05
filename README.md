@@ -35,5 +35,7 @@ to experience breaking changes before stabilising. You can also see the [1.0 iss
 
 If you have downloaded/cloned the hyper repository, you can run the [hello world example](https://github.com/hyperium/hyper/blob/master/examples/hello.rs) using `cargo run --example hello`.
 
-Otherwise, you can quickly get a stand-alone hello world server up and running by starting a new project (using `cargo new --bin hello_world`), paste the content of [this file] into 
+Otherwise, you can quickly try a stand-alone hello world server by starting a new project (using `cargo new --bin hello_world`), paste the content of [this file](https://github.com/hyperium/hyper/blob/master/examples/hello.rs) into src/main.rs and change cargo.toml to this:
+
+To build and run the server, use cargo run
 
