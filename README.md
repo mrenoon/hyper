@@ -30,3 +30,10 @@ See the [Hello World](https://github.com/hyperium/hyper/blob/master/examples/hel
 
 Be aware that hyper is still actively evolving towards 1.0, and is likely
 to experience breaking changes before stabilising. You can also see the [1.0 issue milestone](https://github.com/hyperium/hyper/milestone/1).
+
+## Hello World Example
+
+If you have downloaded/cloned the hyper repository, you can run the [hello world example](https://github.com/hyperium/hyper/blob/master/examples/hello.rs) using `cargo run --example hello`.
+
+Otherwise, you can quickly get a stand-alone hello world server up and running by starting a new project (using `cargo new --bin hello_world`), paste the content of [this file] into 
+
